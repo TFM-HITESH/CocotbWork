@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1722255800" />
+    <testcase name="counter_testbench" classname="updown_test" file="/mnt/Work/VSCODE/CocotbWork/UpDownCounter_8/updown_test.py" lineno="33" time="0.0035026073455810547" sim_time_ns="175.001" ratio_time="49963.06543489211" />
+  </testsuite>
+</testsuites>
