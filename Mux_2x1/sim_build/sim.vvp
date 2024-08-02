@@ -8,28 +8,22 @@
 :vpi_module "/usr/lib/ivl/v2005_math.vpi";
 :vpi_module "/usr/lib/ivl/va_math.vpi";
 :vpi_module "/usr/lib/ivl/v2009.vpi";
-S_0x64adbf8eb660 .scope package, "$unit" "$unit" 2 1;
+S_0x5d9bc7b95660 .scope package, "$unit" "$unit" 2 1;
  .timescale -9 -12;
-S_0x64adbf8eb7f0 .scope module, "mux_2x1" "mux_2x1" 3 1;
+S_0x5d9bc7b957f0 .scope module, "mux_2x1" "mux_2x1" 3 1;
  .timescale -9 -12;
     .port_info 0 /INPUT 1 "a";
     .port_info 1 /INPUT 1 "b";
     .port_info 2 /INPUT 1 "sel";
     .port_info 3 /OUTPUT 1 "y";
-o0x7793104e8018 .functor BUFZ 1, C4<z>; HiZ drive
-v0x64adbf911490_0 .net "a", 0 0, o0x7793104e8018;  0 drivers
-o0x7793104e8048 .functor BUFZ 1, C4<z>; HiZ drive
-v0x64adbf9330d0_0 .net "b", 0 0, o0x7793104e8048;  0 drivers
-o0x7793104e8078 .functor BUFZ 1, C4<z>; HiZ drive
-v0x64adbf933190_0 .net "sel", 0 0, o0x7793104e8078;  0 drivers
-v0x64adbf933230_0 .net "y", 0 0, L_0x64adbf9333a0;  1 drivers
-L_0x64adbf9333a0 .functor MUXZ 1, o0x7793104e8048, o0x7793104e8018, o0x7793104e8078, C4<>;
-    .scope S_0x64adbf8eb7f0;
-T_0 ;
-    %vpi_call/w 3 10 "$dumpfile", "dump.vcd" {0 0 0};
-    %vpi_call/w 3 11 "$dumpvars", 32'sb00000000000000000000000000000000, S_0x64adbf8eb7f0 {0 0 0};
-    %end;
-    .thread T_0;
+o0x7e842fcee018 .functor BUFZ 1, C4<z>; HiZ drive
+v0x5d9bc7bbaf50_0 .net "a", 0 0, o0x7e842fcee018;  0 drivers
+o0x7e842fcee048 .functor BUFZ 1, C4<z>; HiZ drive
+v0x5d9bc7bdc4e0_0 .net "b", 0 0, o0x7e842fcee048;  0 drivers
+o0x7e842fcee078 .functor BUFZ 1, C4<z>; HiZ drive
+v0x5d9bc7bdc5a0_0 .net "sel", 0 0, o0x7e842fcee078;  0 drivers
+v0x5d9bc7bdc640_0 .net "y", 0 0, L_0x5d9bc7bdc7b0;  1 drivers
+L_0x5d9bc7bdc7b0 .functor MUXZ 1, o0x7e842fcee048, o0x7e842fcee018, o0x7e842fcee078, C4<>;
 # The file index is used to find the file name in the following table.
 :file_names 4;
     "N/A";

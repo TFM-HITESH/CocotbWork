@@ -1,6 +1,6 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1722257662" />
-    <testcase name="test_up_counter" classname="test_counter" file="/mnt/Work/VSCODE/CocotbWork/Counter_8/test_counter.py" lineno="5" time="0.0017435550689697266" sim_time_ns="230.001" ratio_time="131914.9616168467" />
+    <property name="random_seed" value="1722407585" />
+    <testcase name="test_up_counter" classname="test_counter" file="/mnt/Work/VSCODE/CocotbWork/Counter_8/test_counter.py" lineno="5" time="0.001997709274291992" sim_time_ns="230.001" ratio_time="115132.36833798783" />
   </testsuite>
 </testsuites>
